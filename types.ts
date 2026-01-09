@@ -65,7 +65,10 @@ export interface Match {
   servingSide: 'home' | 'away' | null;
   servingPlayerId: string | null;
   showServerOverlay?: boolean;
-  activeOverlay?: 'MATCH_STATS' | 'SET_STATS' | 'ROTATION' | null;
+  showScoreboard?: boolean;
+  showMiniBug?: boolean;
+  showReplay?: boolean;
+  activeOverlay?: 'MATCH_STATS' | 'SET_STATS' | 'ROTATION_HOME' | 'ROTATION_AWAY' | null;
   rotations: {
     home: Rotation;
     away: Rotation;

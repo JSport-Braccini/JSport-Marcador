@@ -2,6 +2,7 @@
   "name": "JSPORT Voley Pro Manager",
   "description": "Sistema de gestión y marcador profesional de voleibol inspirado en la VNL. Permite gestionar equipos, jugadores, sorteos y transmisión en vivo.",
   "requestFramePermissions": [
-    "camera"
+    "camera",
+    "microphone"
   ]
 }
